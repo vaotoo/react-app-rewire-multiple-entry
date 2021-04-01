@@ -1,5 +1,7 @@
 export interface EntryParam {
+    name: string;
     entry: string;
+    useHash?: boolean;
     template?: string;
     outPath?: string;
 }
